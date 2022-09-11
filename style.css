@@ -1,0 +1,15 @@
+a:hover{
+    color: #ffd18d;
+}
+
+nav {
+    width: 1200px;
+    height: 90px;
+    background-color: #040404;
+}
+
+nav li{
+    width: 100px;
+    order: 0;
+    
+}
