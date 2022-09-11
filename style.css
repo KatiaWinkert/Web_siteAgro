@@ -22,8 +22,41 @@ header {
   list-style-type: none;
 }
 
-#desktop-lismenu li{
+#desktop-lismenu li {
   padding: 0px 10px;
 }
 
-#
+#desktop-lismenu li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffd18d;
+}
+
+#element-one-menu {
+  padding: 1%;
+  padding-left: 3%;
+}
+
+#element-two-banner{
+  display: flex;
+  padding: 0px 62.5px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #040404;
+}
+
+#element-two-banner img{
+  align-self: flex-end;
+  padding: 0px 32.5px;
+}
+
+#element-two-banner div{
+  padding: 0px 32,5px;
+}
+
+#element-tree-gallery{
+  
+}
