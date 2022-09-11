@@ -1,5 +1,29 @@
-body {
-  background-color: #e6bc7e;
+main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+  display: flex;
+  padding: 5px 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #040404;
+}
 
+#element-mobile,
+#element-Menu-Mobile {
+  display: none;
+}
+
+#desktop-listmenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  list-style-type: none;
+}
+
+#desktop-lismenu li{
+  padding: 0px 10px;
+}
+
+#
