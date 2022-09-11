@@ -2,30 +2,4 @@ body {
   background-color: #e6bc7e;
 }
 
-a:hover {
-  color: white;
-}
-a {
-  color: #ffd18d;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 700;
-  size: 12px;
-  line-height: 14.06px;
-  height: 14px;
-  width: 42px;
-  left: 1062px;
-  top: 38px;
-  border-radius: nullpx;
-}
 
-.conteiner {
-  position: absolute;
-  width: 1200px;
-  height: 90px;
-  left: 0px;
-  top: 0px;
-  background-color: #040404;
-}
-
-#nav {
-}
