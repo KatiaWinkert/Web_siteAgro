@@ -9,23 +9,54 @@
     <meta name="author" content="Katia Winkert" />
     <title>Desafio 25</title>
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-<header>
-<img src="img/brand-logo.png" alt="logo-one" id="logo-cabeçalho" />
-<nav>
-  <a href="#" id="element-mobile" onclick="elementMenu">
-  <i class=" fas fa-bars fa-2x"></i>
-</a>
-<ul id="element-listmenu">
-  <li> <a href="#galeria">Galeria</a> </li>
-  <li> <a href="#contato">Contato</a> </li>
-  <li> <a href="#social">Social</a> </li>
-</ul>
-</nav>
-</header>
-    
+    <header>
+      <img src="img/brand-logo.png" alt="logo-one" id="element-one-menu" />
+      <nav>
+        <a href="#" id="element-mobile" onclick="elementMenu(this)">
+          <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <ul id="desktop-listmenu">
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#social">Social</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="element-Menu-Mobile">
+        <ul>
+          <li>
+            <a href="#galeria" onclick="elementMenu(this)">Galeria</a>
+          </li>
+          <li>
+            <a href="#contato" onclick="elementMenu(this)">Contato</a>
+          </li>
+          <li>
+            <a href="#social" onclick="elementMenu(this)">Social</a>
+          </li>
+        </ul>
+      </section>
+      <section id="element-two-banner">
+        <img src="img/background.png" />
+        <div>
+          <h1>Mussum Ipsum, cacilds vidis litro abertis.</h1>
+          <p>
+            Quem manda na minha terra sou euzis!Copo furadis é disculpa de
+            bebadis, arcu quam euismod magna
+          </p>
+        </div>
+      </section>
+      <section id="element-tree-gallery">
+        <div>
+          <img src="img/dog_1 1.png" alt="dog-One" />
+          <img src="img/cat_1 1.png" alt="cat-One" />
+          <img src="img/dog_2 1.png" alt="dog_Two" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
