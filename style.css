@@ -1,15 +1,31 @@
-a:hover{
-    color: #ffd18d;
+a:hover {
+  color: white;
+}
+a {
+  color: #ffd18d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  size: 12px;
+  line-height: 14.06px;
+ 
+}
+
+.element-box-one {
+  position: absolute;
+  left: 0px;
+  width: 1200px;
+  height: 90px;
+  background-color: #040404;
+  
 }
 
 nav {
-    width: 1200px;
-    height: 90px;
-    background-color: #040404;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
 }
 
-nav li{
-    width: 100px;
-    order: 0;
-    
+ul {
+  list-style: none;
 }
