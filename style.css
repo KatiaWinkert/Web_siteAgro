@@ -40,7 +40,7 @@ header {
   padding-left: 3%;
 }
 
-#element-two-banner{
+#element-two-banner {
   display: flex;
   padding: 0px 62.5px;
   justify-content: space-around;
@@ -48,32 +48,32 @@ header {
   background-color: #040404;
 }
 
-#element-two-banner img{
+#element-two-banner img {
   align-self: flex-end;
   padding: 0px 32.5px;
 }
 
-#element-two-banner div{
-  padding: 0px 32,5px;
+#element-two-banner div {
+  padding: 0px 32, 5px;
 }
 
-#element-tree-gallery{
+#element-tree-gallery {
   padding: 2% 4%;
   background-color: #e6bc7e;
 }
 
-#element-tree-gallery div{
+#element-tree-gallery div {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
 }
 
-#element-tree-gallery div img{
+#element-tree-gallery div img {
   margin: 40px;
 }
 
-h1{
+h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -83,18 +83,18 @@ h1{
   border: 1px solid #000000;
 }
 
-p{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-line-height:  21px;
-color: #bf9d69;
-border: 1px solid #040404;
+  line-height: 21px;
+  color: #bf9d69;
+  border: 1px solid #040404;
 }
 
-#element-for-sectionform 
-{
+#element-for-sectionform {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +102,7 @@ border: 1px solid #040404;
   min-height: 500px;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -116,13 +116,13 @@ form{
 }
 
 form div {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
 }
 
-form div label{
+form div label {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-size: 12px;
@@ -133,7 +133,8 @@ form div label{
   color: #403423;
 }
 
-input, textarea{
+input,
+textarea {
   background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -147,15 +148,16 @@ input, textarea{
   padding: 8px 17px;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border: 1px solid #bf9d69;
 }
 
-input{
+input {
   height: 30px;
 }
 
-textarea{
+textarea {
   height: 80px;
   display: inline-table;
 }
@@ -172,7 +174,7 @@ footer {
   min-height: 80px;
 }
 
-footer p{
+footer p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
@@ -183,22 +185,42 @@ footer p{
   border: none;
 }
 
+@media (max-width: 360px) {
+  #element-two-banner {
+    padding: 0px;
+  }
+  #element-tree-gallery div {
+    padding: 80px 20px 60px 20px;
+  }
+  #element-two-banner img {
+    display: none;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0;
+    line-height: 42px;
+  }
+  p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #bf9d69;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    border: 1px solid #040404;
+  }
+  header{
+    max-height: 75px;
+    padding: 10px 30px;
+    justify-content: space-between;
+  }
+}
