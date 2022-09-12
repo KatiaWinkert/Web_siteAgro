@@ -58,5 +58,37 @@ header {
 }
 
 #element-tree-gallery{
-  
+  padding: 2% 4%;
+  background-color: #e6bc7e;
+}
+
+#element-tree-gallery div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#element-tree-gallery div img{
+  margin: 40px;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  color: #e6bc7e;
+  line-height: 54px;
+  border: 1px solid #000000;
+}
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+line-height:  21px;
+color: #bf9d69;
+border: 1px solid #040404;
 }
