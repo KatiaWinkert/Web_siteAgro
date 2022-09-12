@@ -274,9 +274,20 @@ footer p {
     padding: 5px 0px;
   }
   form {
-  margin:34px 15px 38px 15px;
+    margin: 34px 15px 38px 15px;
   }
-  .response-form{
-    
+  .response-form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #403423;
+    border: none;
+  }
+  input.error,
+  textarea.error {
+    border-color: #ff0047ab;
   }
 }
