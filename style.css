@@ -27,7 +27,7 @@ header {
 }
 
 #desktop-lismenu li a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -218,9 +218,13 @@ footer p {
 
     border: 1px solid #040404;
   }
-  header{
+  header {
     max-height: 75px;
     padding: 10px 30px;
     justify-content: space-between;
+  }
+  header img {
+    width: 53px;
+    height: 63px;
   }
 }
