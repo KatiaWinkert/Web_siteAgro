@@ -92,3 +92,113 @@ line-height:  21px;
 color: #bf9d69;
 border: 1px solid #040404;
 }
+
+#element-for-sectionform 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #403423;
+  min-height: 500px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin: 36px 40%;
+  padding: 40px 25px 22px 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-width: 330px;
+  min-height: 427px;
+}
+
+form div {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: left;
+}
+
+form div label{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  padding-bottom: 7px;
+
+  color: #403423;
+}
+
+input, textarea{
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 14px;
+  color: #000;
+  padding: 8px 17px;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #bf9d69;
+}
+
+input{
+  height: 30px;
+}
+
+textarea{
+  height: 80px;
+  display: inline-table;
+}
+
+#btn-submit:hover {
+  background: #403423;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6bc7e;
+  min-height: 80px;
+}
+
+footer p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #403423;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
