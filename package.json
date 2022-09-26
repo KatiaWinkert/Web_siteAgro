@@ -1,0 +1,9 @@
+{
+  "name": "Web_siteAgro",
+  "version": "1.0.0",
+  "description": "Projeto 25 html Css e Javascript otterwise (turma 3) ",
+  "main": "index.js",
+  "repository": "https://github.com/KatiaWinkert/Web_siteAgro.git",
+  "author": "Katia Winkert <katiawinkert.1988date@gmail.com>",
+  "license": "MIT"
+}
