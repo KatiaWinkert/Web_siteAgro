@@ -1,5 +1,5 @@
 {
-  "name": "Web_siteAgro",
+  "name": "agropet",
   "version": "1.0.0",
   "description": "Projeto 25 html Css e Javascript otterwise (turma 3) ",
   "main": "index.js",
@@ -8,7 +8,6 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.2.0",
     "date-fns": "^2.29.3"
   }
 }
