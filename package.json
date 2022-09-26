@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/KatiaWinkert/Web_siteAgro.git",
   "author": "Katia Winkert <katiawinkert.1988date@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
 }
