@@ -1,4 +1,4 @@
-function elementMenu(elem) {
+export function elementMenuOne(elem) {
   if (elem.classList.contains('change')) {
     elem.innerHTML = '<i class="fas fa-bars fa-2x"></i>'
   } else {
@@ -9,11 +9,10 @@ function elementMenu(elem) {
 }
 
 
-function elementMenu(elem) {
+export function elementMenutwo(elem) {
   const menuMobile = document.getElementById('element-Menu-Mobile')
   const elementPioMobile = document.getElementById('element - mobile')
   elementPioMobile.innerHTML = '<i class="fas fa-bars fa-2x"></i>'
   elementPioMobile.classList.toggle('change')
   menuMobile.classList.toggle('change')
 }
-export default elementMenu
